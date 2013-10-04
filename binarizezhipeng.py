@@ -1,22 +1,12 @@
 #!/usr/bin/python
 
+########################################
+# This is a jpg->ppm conventor
+# By using simple binarization algorithm
+########################################
+
 import os, sys
 from PIL import Image
-
-# for infile in sys.argv[1:]:
-#     f, e = os.path.splitext(infile)
-#     outfile = f + ".jpg"
-#     if infile != outfile:
-#         try:
-#             Image.open(infile).save(outfile)
-#         except IOError:
-#             print "cannot convert", infile
-
-# im = Image.open("sample.jpg")
-# print im.size
-# print im.getpixel((0,0))
-
-#im.show()
 
 inFile = ''
 outFile = ''
