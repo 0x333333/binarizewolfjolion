@@ -36,5 +36,4 @@ for i in range(im.size[0]):
 		else:
 			im.putpixel((i,j), 0)
 
-im.show()
 im.save(outFile)
