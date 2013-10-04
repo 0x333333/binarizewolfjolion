@@ -1,6 +1,12 @@
-# C++ code for document image binarization
+# Document Image Binarization
 
-This uses an improved contrast maximization version of Niblack/Sauvola et al's method to binarize document images. It is also able to perform the more classical Niblack as well as Sauvola et al. methods. Details can be found in the ICPR 2002 paper.
+* * *
+
+Lab website: [http://liris.cnrs.fr/christian.wolf/software/binarize/](http://liris.cnrs.fr/christian.wolf/software/binarize/)
+
+This uses an improved contrast maximization version of Niblack/Sauvola et al's method to binarize document images. It is also able to perform the more classical Niblack as well as Sauvola et al. methods. Details can be found in the [ICPR 2002 paper](http://liris.cnrs.fr/christian.wolf/publications/index.html#icpr2002v).
+
+![example](http://liris.cnrs.fr/christian.wolf/software/binarize/ss_binarize_annotated.png)
 
 ## Usage:
 
