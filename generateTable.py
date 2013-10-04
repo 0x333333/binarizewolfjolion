@@ -1,5 +1,9 @@
 #!/usr/bin/python
 
+########################################
+# This is a fca table generator
+########################################
+
 import os, sys
 from PIL import Image
 
