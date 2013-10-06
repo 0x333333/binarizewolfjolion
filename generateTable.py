@@ -1,8 +1,13 @@
 #!/usr/bin/python
 
 ########################################
-# This is a fca table generator
+#
+# This is a fca input file generator
+#
 ########################################
+
+########################################
+# Get target image and destination images
 
 import os, sys
 from PIL import Image
@@ -20,7 +25,8 @@ else:
 	inFile3 = sys.argv[3]
 	inFile4 = sys.argv[4]
 
-###########################################################
+########################################
+# Analyze image
 
 im = Image.open(inFile1)
 
@@ -30,7 +36,6 @@ for i in range(im.size[0]):
 	for j in range(im.size[1]):
 		if im.getpixel((i,j)) == 0:
 			multilist[i*im.size[1]+j][0] = 1
-		# print i, j, i*im.size[1]+j, im.getpixel((i,j))
 
 im = Image.open(inFile2)
 
@@ -38,7 +43,6 @@ for i in range(im.size[0]):
 	for j in range(im.size[1]):
 		if im.getpixel((i,j)) == 0:
 			multilist[i*im.size[1]+j][1] = 1
-		# print i, j, i*im.size[1]+j, im.getpixel((i,j))
 
 im = Image.open(inFile3)
 
@@ -46,7 +50,6 @@ for i in range(im.size[0]):
 	for j in range(im.size[1]):
 		if im.getpixel((i,j)) == 0:
 			multilist[i*im.size[1]+j][2] = 1
-		# print i, j, i*im.size[1]+j, im.getpixel((i,j))
 
 im = Image.open(inFile4)
 
@@ -54,11 +57,9 @@ for i in range(im.size[0]):
 	for j in range(im.size[1]):
 		if im.getpixel((i,j)) == 0:
 			multilist[i*im.size[1]+j][3] = 1
-		# print i, j, i*im.size[1]+j, im.getpixel((i,j))
 
-# print len(multilist)
-
-###########################################################
+########################################
+# Construct slf file for Galicia or Lattice Miner
 
 f = file('testBin.slf','w')
 
