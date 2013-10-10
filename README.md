@@ -46,9 +46,11 @@ Construct format input for Galicia, etc.
 
 	python generateTable.py test_p.ppm test_w.ppm test_n.ppm test_s.ppm
 
+At last the file 'testBin.slf' is the input file for Calicia or Lattice Miner
+
 ### Execute by default
 
-I have integrated all those operation into a shell script file:
+I have integrated all those operation above into a shell script file:
 
 	./run.sh
 
