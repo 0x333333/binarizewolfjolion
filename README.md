@@ -46,6 +46,12 @@ Construct format input for Galicia, etc.
 
 	python generateTable.py test_p.ppm test_w.ppm test_n.ppm test_s.ppm
 
+### Execute by default
+
+I have integrated all those operation into a shell script file:
+
+	./run.sh
+
 ## Licence
 
 Permission is granted for anyone to copy, use, modify, or distribute this program and accompanying programs and documents for any purpose, provided this copyright notice is retained and prominently displayed, along with a note saying that the original programs are available from my web page.
