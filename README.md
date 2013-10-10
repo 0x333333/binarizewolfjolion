@@ -10,31 +10,41 @@ The second part uses an improved contrast maximization version of Niblack/Sauvol
 
 ![example](http://liris.cnrs.fr/christian.wolf/software/binarize/ss_binarize_annotated.png)
 
-## Usage:
+More example can be found in my blog: 
 
-The executable is called on the command line and only reads and writes PGM files. Under Linux you can use for instance "convert" (part of the ImageMagick package) to convert to and from the PGM format. The first argument chooses between one of several methods, the first and the second argument specify, respectively, the input and the output file:
-
-	usage: binarize [ -x  -y  -k  ] [ version ]  
-
-	version: n   Niblack (1986)         needs white text on black background
-		 s   Sauvola et al. (1997)  needs black text on white background
-		 w   Wolf et al. (2001)     needs black text on white background
-
-	Default version: w (Wolf et al. 2001)
-	Default value for "k": 0.5
-
-	example:
-	       binarize w in.pgm out.pgm
-	       binarize in.pgm out.pgm
-	       binarize s -x 50 -y 50 -k 0.6 in.pgm out.pgm
-
-The best working method is 'w', the one which performed 5th in the DIBCO 2009 competition
-
-If no further arguments are provided, than the window sizes are estimated automatically. The argument -k sets the "k" parameter from all 3 papers. IMPORTANT! Note, that the parameter should be set differently according! It might be necessary to set a different parameter for Niblack's method (he recommends -0.2 in his paper).
+[http://jesusjzp.github.io/blog/2013/10/04/document-binarization/](http://jesusjzp.github.io/blog/2013/10/04/document-binarization/)
 
 ## Compilation
 
-The code has been developed under Linux. No project files are provided for Windows, although the code should in principle compile under Windows.
+The code has been developed under Linux.
+
+Compiler:
+
+	./build_all.sh
+
+## Usage:
+
+### Execute step by step
+
+Generate ppm with simple binarization algorithm
+
+	python binarizezhipeng.py test.jpg test_p.ppm
+
+Generate ppm with algorithm of Niblack (1986)
+
+	./binarizewolfjolion n test.jpg test_n.ppm
+
+Generate ppm with algorithm of Wolf et al. (2001)
+
+	./binarizewolfjolion w test.jpg test_w.ppm
+
+Generate ppm with algorithm of Sauvola et al. (1997)
+
+	./binarizewolfjolion s test.jpg test_s.ppm
+
+Construct format input for Galicia, etc.
+
+	python generateTable.py test_p.ppm test_w.ppm test_n.ppm test_s.ppm
 
 ## Licence
 
