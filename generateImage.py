@@ -48,7 +48,7 @@ except ImportError:
     import xml.etree.ElementTree as ET
 
 import os, sys
-from PIL import Image
+from PIL import Image, ImageDraw
 
 
 ########################################
@@ -66,26 +66,64 @@ else:
 tree = ET.parse(inFile)
 root = tree.getroot()
 
-objList=[]
-attList=[]
-resList=[]
+objList=[] # Save all objects
+attList=[] # Save all attributes
+resList=[] # Save objects for each lattice node
+intList=[] # Save attributes for each lattice node
 
+# Extract objects list
 for child in root[1]:
-	# print child.tag, child.get('id'), child.text
 	objList.append(child.text)
 
+# Extract attributes list
 for child in root[2]:
 	attList.append(child.text)
 
+# Extract objects and attributes for each lattice node 
 for child in root[3]:
 	if child.get('id') == '0':
 		continue
 	obj = child[0].findall('OBJ')
+	att = child[1].findall('ATT')
 	res = []
 	for objChild in obj:
 		res.append(objChild.get('id'))
 	resList.append(res)
+	res = []
+	for attChild in att:
+		res.append(attChild.get('id'))
+	intList.append(res)
 
-print len(objList)
-print len(attList)
-print resList
+# Find the size of image
+height = 0
+width = 0
+for i in objList:
+	if i[1] == '0':
+		height = height + 1
+	else:
+		break
+width = int(objList[len(objList)-1][1]) + 1
+
+# print height
+# print width
+
+# print objList
+# print attList
+# print resList
+# print intList
+
+# Create new images
+for i in range(0,len(resList)):
+	# Construct file name
+	fileName = 'img_'
+	for x in intList[i]:
+		fileName = fileName + attList[int(x)]
+	fileName = fileName + '.ppm'
+
+	# Create new image and save it
+	im = Image.new("RGB", (width, height), (255, 255, 255))
+
+	for y in resList[i]:
+		obj = objList[int(y)]
+		im.putpixel((int(obj[1]), int(obj[3])), 0)
+	im.save('img/'+fileName)
