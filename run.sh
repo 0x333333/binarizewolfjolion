@@ -14,3 +14,6 @@ python binarizezhipeng.py test.jpg test_p.ppm
 
 # construct format input for Galicia, etc.
 python generateTable.py test_p.ppm test_w.ppm test_n.ppm test_s.ppm
+
+# Generate different images according to different lattice concepts
+python generateImage.py lattice.lat.xml
