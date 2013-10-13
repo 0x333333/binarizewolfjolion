@@ -55,13 +55,11 @@ from PIL import Image, ImageDraw
 # Get target image and destination images
 
 inFile = ''
-outFile = ''
 
 if len(sys.argv) > 3:
 	print 'Input format error!'
 else:
 	inFile = sys.argv[1]
-	outFile = sys.argv[2]
 
 tree = ET.parse(inFile)
 root = tree.getroot()
