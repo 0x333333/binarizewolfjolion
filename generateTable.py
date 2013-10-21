@@ -72,7 +72,6 @@ for i in range(im.size[0]):
 	for j in range(im.size[1]):
 		f.write('('+str(i)+','+str(j)+')'+'\n')
 
-
 f.write('[Attributes]'+'\n')
 f.write('p'+'\n')
 f.write('w'+'\n')
@@ -86,5 +85,3 @@ for i in range(0,len(multilist)):
 	f.write('\n')
 
 f.close()
-
-

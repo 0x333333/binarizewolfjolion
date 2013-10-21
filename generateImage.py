@@ -50,7 +50,6 @@ except ImportError:
 import os, sys
 from PIL import Image, ImageDraw
 
-
 ########################################
 # Get target image and destination images
 
