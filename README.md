@@ -1,8 +1,19 @@
 # Document Image Binarization
 
-* * *
-
 Lab website: [http://liris.cnrs.fr/christian.wolf/software/binarize/](http://liris.cnrs.fr/christian.wolf/software/binarize/)
+
+## Project content
+
+We propose to investigate formal data mining techniques to try and measure levels of agreement and disagreement between various algorithms. For example, this application domain will be in the area of Document Image Analysis.
+
+We are going to assume that we have different algorithms trying to solve the same given interpretation problem. Although they are supposed to solve the same problem, they will not necessarily obtain the same results in all the input data. We will try and categorize the levels of agreement and disagreement between algorithms.
+
+Four algorithms are used:
+
+- Simple binarization algorithm
+- Niblack
+- Sauvola et al.
+- Wolf et al.
 
 There are two parts in this repo. The first part is written in python, which enable a simple binarization algorithm.
 
