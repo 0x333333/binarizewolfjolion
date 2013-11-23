@@ -57,7 +57,7 @@ Construct format input for Galicia, etc.
 
 	python src/generateTable.py img_bin/test_p.ppm img_bin/test_w.ppm img_bin/test_n.ppm img_bin/test_s.ppm
 
-At last the file 'testBin.slf' is the input file for Calicia or Lattice Miner
+At last the file 'testBin.slf' is the input file for [Calicia](http://www.iro.umontreal.ca/~galicia/) or [Lattice Miner](http://sourceforge.net/projects/lattice-miner/).
 
 ### Execute by default
 
