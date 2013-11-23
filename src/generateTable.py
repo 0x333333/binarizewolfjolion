@@ -61,7 +61,7 @@ for i in range(im.size[0]):
 ########################################
 # Construct slf file for Galicia or Lattice Miner
 
-f = file('testBin.slf','w')
+f = file('fca/testBin.slf','w')
 
 f.write('[Lattice]'+'\n')
 f.write(str(len(multilist))+'\n')
