@@ -36,25 +36,27 @@ More example can be found in my blog:
 
 ### Execute step by step
 
-1.  Generate ppm files with *simple binarization algorithm*
+0.  Install gcc, python and PIL(Python Image Library).
+
+1.  Generate ppm files with **simple binarization algorithm**:
 
 		python src/binarizezhipeng.py img_src/test.jpg img_bin/test_p.ppm
 
-2.  Generate ppm with algorithm of *Niblack (1986)*
+2.  Generate ppm with algorithm of **Niblack (1986)**:
 
-	./src/binarizewolfjolion n img_src/test.jpg img_bin/test_n.ppm
+		./src/binarizewolfjolion n img_src/test.jpg img_bin/test_n.ppm
 
-3.  Generate ppm with algorithm of *Wolf et al. (2001)*
+3.  Generate ppm with algorithm of **Wolf et al. (2001)**:
 
-	./src/binarizewolfjolion w img_src/test.jpg img_bin/test_w.ppm
+		./src/binarizewolfjolion w img_src/test.jpg img_bin/test_w.ppm
 
-4.  Generate ppm with algorithm of *Sauvola et al. (1997)*
+4.  Generate ppm with algorithm of **Sauvola et al. (1997)**:
 
-	./src/binarizewolfjolion s img_src/test.jpg img_bin/test_s.ppm
+		./src/binarizewolfjolion s img_src/test.jpg img_bin/test_s.ppm
 
-5.  Generate input file(.slf) for Lattice Miner.
+5.  Generate input file(.slf) for Lattice Miner:
 
-	python src/generateTable.py img_bin/test_p.ppm img_bin/test_w.ppm img_bin/test_n.ppm img_bin/test_s.ppm
+		python src/generateTable.py img_bin/test_p.ppm img_bin/test_w.ppm img_bin/test_n.ppm img_bin/test_s.ppm
 
 	File 'testBin.slf' is the input file for [Calicia](http://www.iro.umontreal.ca/~galicia/) or [Lattice Miner](http://sourceforge.net/projects/lattice-miner/).
 
@@ -62,15 +64,15 @@ More example can be found in my blog:
 
 	![pic](http://media-cache-ec0.pinimg.com/originals/4a/9c/99/4a9c997588dea2e85e0bd8544dba3499.jpg)
 
-7.  Generate Lattice tree by *Ctrl+L*:
+7.  Generate Lattice tree by **Ctrl+L**:
 
 	![pic](http://media-cache-ec0.pinimg.com/originals/b6/99/e1/b699e1a9fb823bc80187a7a5682b3902.jpg)
 
-8.  Save this Lattice tree to *.lat.xml* file by *Ctrl+S*.
+8.  Save this Lattice tree to **.lat.xml** file by **Ctrl+S**.
 
 9.  Generate all images corresponding to each point in Lattice tree:
 
-	python src/generateImage.py fca/lattice.lat.xml
+		python src/generateImage.py fca/lattice.lat.xml
 
 ## Limitations (To be completed)
 
