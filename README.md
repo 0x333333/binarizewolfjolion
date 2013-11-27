@@ -62,6 +62,8 @@ More example can be found in my blog:
 
 6.  Open 'testBin.slf' from Lattice Miner and display the context:
 
+		java -jar tools/Lattice\ Miner\ 1.4.jar
+
 	![pic](http://media-cache-ec0.pinimg.com/originals/4a/9c/99/4a9c997588dea2e85e0bd8544dba3499.jpg)
 
 7.  Generate Lattice tree by **Ctrl+L**:

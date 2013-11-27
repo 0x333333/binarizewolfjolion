@@ -65,7 +65,7 @@ f = file('fca/testBin.slf','w')
 
 f.write('[Lattice]'+'\n')
 f.write(str(len(multilist))+'\n')
-f.write('4'+'\n')
+f.write('8'+'\n')
 
 f.write('[Objects]'+'\n')
 for i in range(im.size[0]):
@@ -73,10 +73,14 @@ for i in range(im.size[0]):
 		f.write('('+str(i)+','+str(j)+')'+'\n')
 
 f.write('[Attributes]'+'\n')
-f.write('p'+'\n')
-f.write('w'+'\n')
-f.write('n'+'\n')
-f.write('s'+'\n')
+f.write('p1'+'\n')
+f.write('p2'+'\n')
+f.write('w1'+'\n')
+f.write('w2'+'\n')
+f.write('n1'+'\n')
+f.write('n2'+'\n')
+f.write('s1'+'\n')
+f.write('s2'+'\n')
 
 f.write('[relation]'+'\n')
 for i in range(0,len(multilist)):
