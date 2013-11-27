@@ -82,6 +82,7 @@ f.write('[relation]'+'\n')
 for i in range(0,len(multilist)):
 	for j in range(0,len(multilist[i])):
 		f.write(str(multilist[i][j]) + ' ')
+		f.write(str(1-multilist[i][j]) + ' ')
 	f.write('\n')
 
 f.close()

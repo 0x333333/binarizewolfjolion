@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LAT Desc="testBin2 - lattice2.slf - #OfNodes = 6" type="ConceptLattice">
+  <MINSUPP>0.0</MINSUPP>
+  <OBJS>
+    <OBJ id="0">(0,0)</OBJ>
+    <OBJ id="1">(0,1)</OBJ>
+    <OBJ id="2">(0,2)</OBJ>
+    <OBJ id="3">(0,3)</OBJ>
+    <OBJ id="4">(0,4)</OBJ>
+    <OBJ id="5">(0,5)</OBJ>
+    <OBJ id="6">(0,6)</OBJ>
+    <OBJ id="7">(0,7)</OBJ>
+    <OBJ id="8">(0,8)</OBJ>
+    <OBJ id="9">(0,9)</OBJ>
+    <OBJ id="10">(1,0)</OBJ>
+    <OBJ id="11">(1,1)</OBJ>
+    <OBJ id="12">(1,2)</OBJ>
+    <OBJ id="13">(1,3)</OBJ>
+    <OBJ id="14">(1,4)</OBJ>
+    <OBJ id="15">(1,5)</OBJ>
+    <OBJ id="16">(1,6)</OBJ>
+    <OBJ id="17">(1,7)</OBJ>
+    <OBJ id="18">(1,8)</OBJ>
+    <OBJ id="19">(1,9)</OBJ>
+    <OBJ id="20">(2,0)</OBJ>
+    <OBJ id="21">(2,1)</OBJ>
+    <OBJ id="22">(2,2)</OBJ>
+    <OBJ id="23">(2,3)</OBJ>
+    <OBJ id="24">(2,4)</OBJ>
+    <OBJ id="25">(2,5)</OBJ>
+    <OBJ id="26">(2,6)</OBJ>
+    <OBJ id="27">(2,7)</OBJ>
+    <OBJ id="28">(2,8)</OBJ>
+    <OBJ id="29">(2,9)</OBJ>
+    <OBJ id="30">(3,0)</OBJ>
+    <OBJ id="31">(3,1)</OBJ>
+    <OBJ id="32">(3,2)</OBJ>
+    <OBJ id="33">(3,3)</OBJ>
+    <OBJ id="34">(3,4)</OBJ>
+    <OBJ id="35">(3,5)</OBJ>
+    <OBJ id="36">(3,6)</OBJ>
+    <OBJ id="37">(3,7)</OBJ>
+    <OBJ id="38">(3,8)</OBJ>
+    <OBJ id="39">(3,9)</OBJ>
+    <OBJ id="40">(4,0)</OBJ>
+    <OBJ id="41">(4,1)</OBJ>
+    <OBJ id="42">(4,2)</OBJ>
+    <OBJ id="43">(4,3)</OBJ>
+    <OBJ id="44">(4,4)</OBJ>
+    <OBJ id="45">(4,5)</OBJ>
+    <OBJ id="46">(4,6)</OBJ>
+    <OBJ id="47">(4,7)</OBJ>
+    <OBJ id="48">(4,8)</OBJ>
+    <OBJ id="49">(4,9)</OBJ>
+    <OBJ id="50">(5,0)</OBJ>
+    <OBJ id="51">(5,1)</OBJ>
+    <OBJ id="52">(5,2)</OBJ>
+    <OBJ id="53">(5,3)</OBJ>
+    <OBJ id="54">(5,4)</OBJ>
+    <OBJ id="55">(5,5)</OBJ>
+    <OBJ id="56">(5,6)</OBJ>
+    <OBJ id="57">(5,7)</OBJ>
+    <OBJ id="58">(5,8)</OBJ>
+    <OBJ id="59">(5,9)</OBJ>
+    <OBJ id="60">(6,0)</OBJ>
+    <OBJ id="61">(6,1)</OBJ>
+    <OBJ id="62">(6,2)</OBJ>
+    <OBJ id="63">(6,3)</OBJ>
+    <OBJ id="64">(6,4)</OBJ>
+    <OBJ id="65">(6,5)</OBJ>
+    <OBJ id="66">(6,6)</OBJ>
+    <OBJ id="67">(6,7)</OBJ>
+    <OBJ id="68">(6,8)</OBJ>
+    <OBJ id="69">(6,9)</OBJ>
+    <OBJ id="70">(7,0)</OBJ>
+    <OBJ id="71">(7,1)</OBJ>
+    <OBJ id="72">(7,2)</OBJ>
+    <OBJ id="73">(7,3)</OBJ>
+    <OBJ id="74">(7,4)</OBJ>
+    <OBJ id="75">(7,5)</OBJ>
+    <OBJ id="76">(7,6)</OBJ>
+    <OBJ id="77">(7,7)</OBJ>
+    <OBJ id="78">(7,8)</OBJ>
+    <OBJ id="79">(7,9)</OBJ>
+  </OBJS>
+  <ATTS>
+    <ATT id="0">n</ATT>
+    <ATT id="1">p</ATT>
+    <ATT id="2">s</ATT>
+    <ATT id="3">w</ATT>
+  </ATTS>
+  <NODS>
+    <NOD id="0">
+      <EXT>
+        <OBJ id="0" />
+        <OBJ id="1" />
+        <OBJ id="2" />
+        <OBJ id="3" />
+        <OBJ id="4" />
+        <OBJ id="5" />
+        <OBJ id="6" />
+        <OBJ id="7" />
+        <OBJ id="8" />
+        <OBJ id="9" />
+        <OBJ id="10" />
+        <OBJ id="11" />
+        <OBJ id="12" />
+        <OBJ id="13" />
+        <OBJ id="14" />
+        <OBJ id="15" />
+        <OBJ id="16" />
+        <OBJ id="17" />
+        <OBJ id="18" />
+        <OBJ id="19" />
+        <OBJ id="20" />
+        <OBJ id="21" />
+        <OBJ id="22" />
+        <OBJ id="23" />
+        <OBJ id="24" />
+        <OBJ id="25" />
+        <OBJ id="26" />
+        <OBJ id="27" />
+        <OBJ id="28" />
+        <OBJ id="29" />
+        <OBJ id="30" />
+        <OBJ id="31" />
+        <OBJ id="32" />
+        <OBJ id="33" />
+        <OBJ id="34" />
+        <OBJ id="35" />
+        <OBJ id="36" />
+        <OBJ id="37" />
+        <OBJ id="38" />
+        <OBJ id="39" />
+        <OBJ id="40" />
+        <OBJ id="41" />
+        <OBJ id="42" />
+        <OBJ id="43" />
+        <OBJ id="44" />
+        <OBJ id="45" />
+        <OBJ id="46" />
+        <OBJ id="47" />
+        <OBJ id="48" />
+        <OBJ id="49" />
+        <OBJ id="50" />
+        <OBJ id="51" />
+        <OBJ id="52" />
+        <OBJ id="53" />
+        <OBJ id="54" />
+        <OBJ id="55" />
+        <OBJ id="56" />
+        <OBJ id="57" />
+        <OBJ id="58" />
+        <OBJ id="59" />
+        <OBJ id="60" />
+        <OBJ id="61" />
+        <OBJ id="62" />
+        <OBJ id="63" />
+        <OBJ id="64" />
+        <OBJ id="65" />
+        <OBJ id="66" />
+        <OBJ id="67" />
+        <OBJ id="68" />
+        <OBJ id="69" />
+        <OBJ id="70" />
+        <OBJ id="71" />
+        <OBJ id="72" />
+        <OBJ id="73" />
+        <OBJ id="74" />
+        <OBJ id="75" />
+        <OBJ id="76" />
+        <OBJ id="77" />
+        <OBJ id="78" />
+        <OBJ id="79" />
+      </EXT>
+      <INT />
+      <SUP_NOD />
+    </NOD>
+    <NOD id="1">
+      <EXT>
+        <OBJ id="0" />
+        <OBJ id="1" />
+        <OBJ id="2" />
+        <OBJ id="3" />
+        <OBJ id="4" />
+        <OBJ id="5" />
+        <OBJ id="6" />
+        <OBJ id="7" />
+        <OBJ id="10" />
+        <OBJ id="11" />
+        <OBJ id="12" />
+        <OBJ id="13" />
+        <OBJ id="24" />
+        <OBJ id="25" />
+        <OBJ id="27" />
+        <OBJ id="28" />
+        <OBJ id="29" />
+        <OBJ id="34" />
+        <OBJ id="35" />
+        <OBJ id="37" />
+        <OBJ id="38" />
+        <OBJ id="39" />
+        <OBJ id="40" />
+        <OBJ id="41" />
+        <OBJ id="42" />
+        <OBJ id="47" />
+        <OBJ id="48" />
+        <OBJ id="49" />
+        <OBJ id="50" />
+        <OBJ id="51" />
+        <OBJ id="52" />
+        <OBJ id="53" />
+        <OBJ id="54" />
+        <OBJ id="59" />
+        <OBJ id="60" />
+        <OBJ id="61" />
+        <OBJ id="62" />
+        <OBJ id="63" />
+        <OBJ id="64" />
+        <OBJ id="65" />
+        <OBJ id="66" />
+        <OBJ id="67" />
+        <OBJ id="70" />
+        <OBJ id="71" />
+        <OBJ id="72" />
+        <OBJ id="73" />
+        <OBJ id="74" />
+        <OBJ id="75" />
+        <OBJ id="76" />
+        <OBJ id="77" />
+        <OBJ id="78" />
+        <OBJ id="79" />
+      </EXT>
+      <INT>
+        <ATT id="2" />
+      </INT>
+      <SUP_NOD>
+        <PARENT id="0" />
+      </SUP_NOD>
+    </NOD>
+    <NOD id="2">
+      <EXT>
+        <OBJ id="0" />
+        <OBJ id="1" />
+        <OBJ id="2" />
+        <OBJ id="3" />
+        <OBJ id="4" />
+        <OBJ id="5" />
+        <OBJ id="6" />
+        <OBJ id="7" />
+        <OBJ id="10" />
+        <OBJ id="11" />
+        <OBJ id="12" />
+        <OBJ id="13" />
+        <OBJ id="24" />
+        <OBJ id="25" />
+        <OBJ id="28" />
+        <OBJ id="29" />
+        <OBJ id="34" />
+        <OBJ id="35" />
+        <OBJ id="37" />
+        <OBJ id="38" />
+        <OBJ id="39" />
+        <OBJ id="47" />
+        <OBJ id="48" />
+        <OBJ id="49" />
+        <OBJ id="50" />
+        <OBJ id="51" />
+        <OBJ id="52" />
+        <OBJ id="54" />
+        <OBJ id="60" />
+        <OBJ id="61" />
+        <OBJ id="62" />
+        <OBJ id="63" />
+        <OBJ id="64" />
+        <OBJ id="65" />
+        <OBJ id="66" />
+        <OBJ id="70" />
+        <OBJ id="71" />
+        <OBJ id="72" />
+        <OBJ id="73" />
+        <OBJ id="74" />
+        <OBJ id="75" />
+        <OBJ id="76" />
+        <OBJ id="77" />
+        <OBJ id="78" />
+        <OBJ id="79" />
+      </EXT>
+      <INT>
+        <ATT id="2" />
+        <ATT id="3" />
+      </INT>
+      <SUP_NOD>
+        <PARENT id="1" />
+      </SUP_NOD>
+    </NOD>
+    <NOD id="3">
+      <EXT>
+        <OBJ id="0" />
+        <OBJ id="1" />
+        <OBJ id="2" />
+        <OBJ id="3" />
+        <OBJ id="4" />
+        <OBJ id="5" />
+        <OBJ id="6" />
+        <OBJ id="10" />
+        <OBJ id="11" />
+        <OBJ id="12" />
+        <OBJ id="13" />
+        <OBJ id="24" />
+        <OBJ id="25" />
+        <OBJ id="28" />
+        <OBJ id="29" />
+        <OBJ id="34" />
+        <OBJ id="35" />
+        <OBJ id="37" />
+        <OBJ id="38" />
+        <OBJ id="39" />
+        <OBJ id="40" />
+        <OBJ id="41" />
+        <OBJ id="47" />
+        <OBJ id="48" />
+        <OBJ id="49" />
+        <OBJ id="50" />
+        <OBJ id="51" />
+        <OBJ id="52" />
+        <OBJ id="53" />
+        <OBJ id="54" />
+        <OBJ id="59" />
+        <OBJ id="60" />
+        <OBJ id="61" />
+        <OBJ id="62" />
+        <OBJ id="63" />
+        <OBJ id="64" />
+        <OBJ id="65" />
+        <OBJ id="66" />
+        <OBJ id="70" />
+        <OBJ id="71" />
+        <OBJ id="72" />
+        <OBJ id="73" />
+        <OBJ id="74" />
+        <OBJ id="75" />
+        <OBJ id="76" />
+        <OBJ id="77" />
+        <OBJ id="78" />
+        <OBJ id="79" />
+      </EXT>
+      <INT>
+        <ATT id="1" />
+        <ATT id="2" />
+      </INT>
+      <SUP_NOD>
+        <PARENT id="1" />
+      </SUP_NOD>
+    </NOD>
+    <NOD id="4">
+      <EXT>
+        <OBJ id="0" />
+        <OBJ id="1" />
+        <OBJ id="2" />
+        <OBJ id="3" />
+        <OBJ id="4" />
+        <OBJ id="5" />
+        <OBJ id="6" />
+        <OBJ id="10" />
+        <OBJ id="11" />
+        <OBJ id="12" />
+        <OBJ id="13" />
+        <OBJ id="24" />
+        <OBJ id="25" />
+        <OBJ id="28" />
+        <OBJ id="29" />
+        <OBJ id="34" />
+        <OBJ id="35" />
+        <OBJ id="37" />
+        <OBJ id="38" />
+        <OBJ id="39" />
+        <OBJ id="47" />
+        <OBJ id="48" />
+        <OBJ id="49" />
+        <OBJ id="50" />
+        <OBJ id="51" />
+        <OBJ id="52" />
+        <OBJ id="54" />
+        <OBJ id="60" />
+        <OBJ id="61" />
+        <OBJ id="62" />
+        <OBJ id="63" />
+        <OBJ id="64" />
+        <OBJ id="65" />
+        <OBJ id="66" />
+        <OBJ id="70" />
+        <OBJ id="71" />
+        <OBJ id="72" />
+        <OBJ id="73" />
+        <OBJ id="74" />
+        <OBJ id="75" />
+        <OBJ id="76" />
+        <OBJ id="77" />
+        <OBJ id="78" />
+        <OBJ id="79" />
+      </EXT>
+      <INT>
+        <ATT id="1" />
+        <ATT id="2" />
+        <ATT id="3" />
+      </INT>
+      <SUP_NOD>
+        <PARENT id="2" />
+        <PARENT id="3" />
+      </SUP_NOD>
+    </NOD>
+    <NOD id="5">
+      <EXT>
+        <OBJ id="0" />
+        <OBJ id="1" />
+        <OBJ id="2" />
+        <OBJ id="3" />
+        <OBJ id="4" />
+        <OBJ id="5" />
+        <OBJ id="6" />
+        <OBJ id="10" />
+        <OBJ id="11" />
+        <OBJ id="12" />
+        <OBJ id="13" />
+        <OBJ id="25" />
+        <OBJ id="28" />
+        <OBJ id="29" />
+        <OBJ id="34" />
+        <OBJ id="35" />
+        <OBJ id="38" />
+        <OBJ id="39" />
+        <OBJ id="48" />
+        <OBJ id="49" />
+        <OBJ id="50" />
+        <OBJ id="60" />
+        <OBJ id="61" />
+        <OBJ id="62" />
+        <OBJ id="63" />
+        <OBJ id="64" />
+        <OBJ id="65" />
+        <OBJ id="70" />
+        <OBJ id="71" />
+        <OBJ id="72" />
+        <OBJ id="73" />
+        <OBJ id="74" />
+        <OBJ id="75" />
+        <OBJ id="76" />
+        <OBJ id="77" />
+        <OBJ id="78" />
+      </EXT>
+      <INT>
+        <ATT id="0" />
+        <ATT id="1" />
+        <ATT id="2" />
+        <ATT id="3" />
+      </INT>
+      <SUP_NOD>
+        <PARENT id="4" />
+      </SUP_NOD>
+    </NOD>
+  </NODS>
+</LAT>
+

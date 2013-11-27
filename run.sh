@@ -14,5 +14,6 @@ python src/binarizezhipeng.py img_src/test.jpg img_bin/test_p.ppm
 
 # construct format input for Galicia, etc.
 python src/generateTable.py img_bin/test_p.ppm img_bin/test_w.ppm img_bin/test_n.ppm img_bin/test_s.ppm
+
 # Generate different images according to different lattice concepts
 # python src/generateImage.py fca/lattice.lat.xml
