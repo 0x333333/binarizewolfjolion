@@ -1,5 +1,13 @@
 # Document Image Binarization
 
+## FCA resources
+
+- [Formal Concept Analysis Homepage](http://www.fcahome.org.uk/fca.html)
+- [Formal Concept Analysis Algorithms](http://www.fcahome.org.uk/fcaalgorithms.html)
+- [Formal Concept Analysis Publishs](http://www.fcahome.org.uk/fcaalgorithms.html)
+- [Formal Concept Analysis Tool List](http://www.fcahome.org.uk/fcasoftware.html)
+
+
 ## Project content
 
 We propose to investigate formal data mining techniques to try and measure levels of agreement and disagreement between various algorithms. For example, this application domain will be in the area of Document Image Analysis.
