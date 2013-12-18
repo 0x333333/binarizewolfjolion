@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>FCbO: Fast CbO</TITLE>
+    <link rel="stylesheet" href="http://www.w3.org/StyleSheets/Core/Steely" type
+="text/css">
+    <style type="text/css">
+      a:link, a:hover, a:visited { color: rgb(230,120,0); }
+      h3 { font-weight: normal; }
+      #footer { text-align: right; margin-top: 42px; }
+      #footer a { color: black; font-weight: normal; }
+      em { font-weight: normal; font-style: italic; }
+      strong { font-style: normal; }
+      #download { text-align: center; }
+      table { margin: 1em auto 1em auto; }
+      td { padding: .4em; border-left: solid 1px; border-bottom: solid 1px; }
+      tr:first-child > td { border-top: solid 1px; font-style: italic; }
+      td:last-child { border-right: solid 1px; }
+    </style>
+</HEAD><BODY>
+<h1 align=center>FCbO: Fast CbO</h1>
+
+<h2>NAME</h2>
+
+<p>fcbo - computes formal concepts and maximal frequent
+itemsets</p>
+
+<h2>SYNOPSIS</h2>
+
+<p><b>fcbo</b> [<i>OPTION</i>]... [<i>INPUT-FILE</i>]
+[<i>OUTPUT-FILE</i>]</p>
+
+<h2>DESCRIPTION</h2>
+<p>This program computes intents of all formal concepts in
+an object-attribute data set (a formal context), i.e. the
+algorithm computes all maximal submatrices of a boolean
+matrix which are full of 1&rsquo;s. The program implements
+FCbO, a fast algorithm based on Kuznetsov&rsquo;s CbO with
+improved canonicity test.</p>
+<!-- INDENTATION -->
+<p>The <i>INPUT-FILE</i> is in the usual FIMI format: each
+line represents a transaction or an object and it contains
+of a list of attributes/features/items. If the
+<i>INPUT-FILE</i> is omitted or if it equals to
+&lsquo;<i>-</i>&rsquo;, the program reads the input form the
+<i>stdin</i>. The <i>OUTPUT-FILE</i> has a similar format,
+each line represents one intent (itemset), where numbers
+indicate attributes in the intent (itemset). If the
+<i>OUTPUT-FILE</i> is omitted or if it equals to
+&lsquo;<i>-</i>&rsquo;, the program writes the input to the
+<i>stdout</i>.</p>
+
+<H3>Optional arguments</H3>
+
+<DL COMPACT>
+<DT><B>-</B><I>index</I>,<DD>
+sets the initial <i>index</i> of the first attribute. The
+default value is 0, meaning that attributes are numbered
+from 0 upwards. If a data set uses attributes numbered from
+1, you should use the &lsquo;<b>-1</b>&rsquo; switch, and so
+on.
+<DT><B>-S</B><I>min-support</I>,<DD>
+the minimal support considered is set to
+<i>min-support</i>. The default value is 0, meaning that the
+support is disregarded and all intents (itemsets) are
+written to the output. If <i>min-support</i> is set to a
+positive value, only itemsets having extents with at least
+<i>min-support</i> are written to the output.
+<DT><B>-V</B><I>level</I>,<DD>
+sets the verbosity <I>level</I> to a specified value. Permitted values are
+numbers from 0 up to 3. The default value is 1. Verbosity level 0 (no output)
+just computes the intents and produces no output. Verbosity level 1 produces
+lists of intents with no auxiliary output. Verbosity levels 2 and higher
+write additional information to <I>stderr</I>.
+</DL>
+
+<h2>EXAMPLES</h2>
+
+<b>fcbo -1 mushroom.dat</b>
+
+<p>Computes all intents in the file named
+<b>mushroom.dat</b> where <b>1</b> denotes the first
+attribute in <b>mushroom.dat</b>. The output is written to
+the standard output.</p>
+
+<b>fcbo -S200 foo.dat output-intents.dat</b>
+
+<p>Computes all intents in <b>foo.dat</b> with extents
+having at least 200 objects, writing the output to
+<b>output-intents.dat</b>.</p>
+
+<H2>AUTHORS</H2>
+
+<P>
+
+Written by Jan Outrata and Vilem Vychodil.
+<H2>REPORTING BUGS</H2>
+
+<P>
+
+Report bugs to &lt;<A HREF="mailto:fcalgs-bugs@lists.sourceforge.net">fcalgs-bugs@lists.sourceforge.net</A>&gt;.
+<H2>COPYRIGHT</H2>
+
+<P>
+
+GNU GPL 2 (<A HREF="http://www.gnu.org/licenses/gpl-2.0.html">http://www.gnu.org/licenses/gpl-2.0.html</A>).
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+<P>
+
+<H2>DOWNLOAD</H2>
+
+<P>
+The program can be obtained from
+<A HREF="http://fcalgs.sourceforge.net">http://fcalgs.sourceforge.net</A>
+
+</BODY>
+</HTML>

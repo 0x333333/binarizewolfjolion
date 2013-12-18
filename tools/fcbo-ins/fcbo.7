@@ -1,0 +1,69 @@
+.TH FCBO 7 "September 2010" http://fcalgs.sourceforge.net "FCA Algorithms"
+.SH NAME
+.P
+fcbo - computes formal concepts and maximal frequent itemsets
+.SH SYNOPSIS
+.B fcbo
+[\fIOPTION\fR]... [\fIINPUT-FILE\fR] [\fIOUTPUT-FILE\fR]
+.SH DESCRIPTION
+.P
+This program computes intents of all formal concepts in an object-attribute
+data set (a formal context), i.e. the algorithm computes all maximal submatrices
+of a boolean matrix which are full of 1's. The program implements FCbO,
+a fast algorithm based on Kuznetsov's CbO with improved canonicity test.
+.PP
+The \fIINPUT-FILE\fR is in the usual FIMI format: each line represents
+a transaction or an object and it contains of a list of
+attributes/features/items. If the \fIINPUT-FILE\fR is omitted or if it equals
+to `\fI-\fR', the program reads the input form the \fIstdin\fR.
+The \fIOUTPUT-FILE\fR has a similar
+format, each line represents one intent (itemset), where numbers indicate
+attributes in the intent (itemset). If the \fIOUTPUT-FILE\fR is omitted or
+if it equals to `\fI-\fR', the program writes the input to the \fIstdout\fR.
+.SS
+Optional arguments
+.TP
+\fB\-\fR\fIindex\fR,
+sets the initial \fIindex\fR of the first attribute. The default value is 0,
+meaning that attributes are numbered from 0 upwards. If a data set uses
+attributes numbered from 1, you should use the `\fB-1\fR' switch, and so on.
+.TP
+\fB\-S\fR\fImin-support\fR,
+the minimal support considered is set to \fImin-support\fR. The default value
+is 0, meaning that the support is disregarded and all intents (itemsets)
+are written to the output. If \fImin-support\fR is set to a positive value,
+only itemsets having extents with at least \fImin-support\fR are written
+to the output.
+.TP
+\fB\-V\fR\fIlevel\fR,
+sets the verbosity \fIlevel\fR to a specified value. Permitted values are
+numbers from 0 up to 3. The default value is 1. Verbosity level 0 (no output)
+just computes the intents and produces no output. Verbosity level 1 produces
+lists of intents with no auxiliary output. Verbosity levels 2 and higher
+write additional information to \fIstderr\fR.
+.SH EXAMPLES
+.B fcbo -1 mushroom.dat
+
+.fi
+Computes all intents in the file named \fBmushroom.dat\fR where \fB1\fR denotes
+the first attribute in \fBmushroom.dat\fR. The output is
+written to the standard output.
+.P
+.B fcbo -S200 foo.dat output-intents.dat
+
+.fi
+Computes all intents in \fBfoo.dat\fR with extents having at least 200 objects,
+writing the output to \fBoutput-intents.dat\fR.
+.SH AUTHORS
+.P
+Written by Jan Outrata and Vilem Vychodil.
+.SH REPORTING BUGS
+.P
+Report bugs to <fcalgs-bugs@lists.sourceforge.net>.
+.SH COPYRIGHT
+.P
+GNU GPL 2 (http://www.gnu.org/licenses/gpl-2.0.html).
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+
