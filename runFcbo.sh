@@ -16,4 +16,4 @@ python src/binarizezhipeng.py img_src/test.jpg img_bin/test_p.ppm
 python src/generateTableFcbo.py img_bin/test_p.ppm img_bin/test_w.ppm img_bin/test_n.ppm img_bin/test_s.ppm
 
 # Generate result by using Fcbo
-./tools/fcbo-ins/fcbo fca/testBinFcbo.dat fca/resFcbo.dat 
+./tools/fcbo-ins/fcbo fca/InputDataFcbo.dat fca/resFcbo.dat 

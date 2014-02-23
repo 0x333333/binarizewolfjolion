@@ -60,9 +60,9 @@ for i in range(im.size[0]):
 			multilist[i*im.size[1]+j][3] = 1
 
 ########################################
-# Construct slf file for Galicia or Lattice Miner
+# Construct input file for Fcbo
 
-f = file('fca/testBinFcbo.dat','w')
+f = file('fca/InputDataFcbo.dat','w')
 
 for i in range(0,len(multilist)):
 	for j in range(0,len(multilist[i])):
