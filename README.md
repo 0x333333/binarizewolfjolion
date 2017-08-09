@@ -33,7 +33,7 @@ The second part uses an improved contrast maximization version of Niblack/Sauvol
 
 More example can be found in my blog: 
 
-[http://jesusjzp.github.io/blog/2013/10/04/document-binarization/](http://jesusjzp.github.io/blog/2013/10/04/document-binarization/)
+[http://zpjiang.me/2013/10/04/document-binarization/](http://zpjiang.me/2013/10/04/document-binarization/)
 
 ## Usage
 
